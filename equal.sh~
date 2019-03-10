@@ -1,0 +1,10 @@
+#!/bin/bash
+
+str1="rushabh"
+str2="doshi"
+
+if [ "$str1" == "$str2" ]; then
+	echo "Both Strings are Equal."
+else
+	echo "Both Strings are not Equal."
+fi
